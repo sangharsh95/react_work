@@ -10,12 +10,14 @@ import MyComponent from "./MyComponent.jsx"
 import Counter from "./Counter.jsx"
 import NewComponent from "./NewComponent.jsx"
 import ColorPicker from "./ColorPicker.jsx"
+import ToDoList from "./ToDoList.jsx"
 
 
 function App() {
   
   return(
     <>
+          <ToDoList />
           <ColorPicker />
           <NewComponent />
           <MyComponent />
